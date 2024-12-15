@@ -1,0 +1,70 @@
+/* Estilo para a imagem do site */
+#FotoSite{
+  display: block; /* Faz a imagem ser exibida como bloco */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  width: 1000px; /* Define a largura da imagem */
+  height: 450px; /* Define a altura da imagem */
+  border-radius: 10%; /* Arredonda as bordas da imagem */
+}
+
+/* Estilo para a seção de links do menu */
+.href {
+  padding: 10px; /* Define o padding em torno da seção */
+  margin-bottom: 2rem; /* Define a margem inferior */
+  background-color: rgba(0, 0, 0, 0.3); /* Cor de fundo semi-transparente */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding-block: 12px; /* Padding superior e inferior */
+}
+
+/* Estilo para a lista de links dentro da seção */
+.href ul {
+  list-style: none; /* Remove os marcadores da lista */
+  display: flex; /* Exibe os itens da lista em linha */
+  justify-content: center; /* Centraliza os itens da lista */
+  gap: 100px; /* Define o espaçamento entre os itens da lista */
+  padding: 0; /* Remove o padding da lista */
+  margin: 0; /* Remove a margem da lista */
+}
+
+/* Estilo para os links */
+.href a {
+  color: white; /* Cor do texto do link */
+  text-decoration: none; /* Remove o sublinhado do link */
+  font-weight: bold; /* Deixa o texto do link em negrito */
+  align-self: center; /* Alinha os itens verticalmente no centro */
+}
+
+/* Estilo para o efeito de hover nos links */
+.href a:hover {
+  text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse */
+}
+
+/* Estilo para o corpo da página */
+body {
+  height: 100vh; /* Define a altura do corpo para ocupar toda a altura da tela */
+  margin: 0; /* Remove a margem padrão */
+}
+
+/* Estilo para o conteúdo principal */
+main { 
+  background-color: rgb(4, 4, 49); /* Cor de fundo escura para o conteúdo principal */
+  color: white; /* Cor do texto em branco */
+  font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão */
+}
+
+/* Estilo para os títulos h1 */
+h1 {
+  margin: 40px 0; /* Define as margens superior e inferior do título */
+  text-align: center; /* Centraliza o texto */
+  background-color: white; /* Cor de fundo do título */
+  color: midnightblue; /* Cor do texto */
+  padding: 10px; /* Padding ao redor do título */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo para a tag h */
+h {
+  text-align: 100px; /* Isso não é válido, provavelmente deveria ser text-align: center */
+  padding: 10px; /* Padding ao redor do texto */
+  border-radius: 10px; /* Bordas arredondadas */
+}
